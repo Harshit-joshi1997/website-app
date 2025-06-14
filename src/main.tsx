@@ -1,10 +1,24 @@
-import { StrictMode } from 'react'
+
 import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
+import Navbar from './components/Navbar.tsx'
+import Cards from "./components/Cards.tsx";
+import Form from './components/Form.tsx';
+import Articles from './components/Articles.tsx';
+import '../src/components/style.css'
+import Pages from './components/Pages.tsx';
+// import List from './components/List.tsx';
+import Footer from "./components/footer.tsx";
 
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
+  
+    <>
+      <Navbar />
+      <Cards />
+      <Articles />
+      <Pages />
+    <Form />
+    <Footer />
+    
+    </>
+ 
 )

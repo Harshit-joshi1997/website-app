@@ -1,0 +1,13 @@
+.card-img-top{
+    height: 300px;
+}
+.pagination{
+    margin-left: 39rem;
+    padding: 10px;
+    margin-top: 15px;
+    
+    }
+.page-link{
+background-color:rgb(206, 236, 226);
+color: black;
+}
