@@ -10,22 +10,22 @@ return (
         <span>Get connected with us on social networks:</span>
       </div>
       <div>
-        <a href="" className="me-4 text-reset">
-          <i className="fab fa-facebook-f"></i>
+        <a href="" className="me-4 text-reset" style={{backgroundColor:"black"}}>
+          <i className="fab fa-facebook-f"style={{backgroundColor:"black"}}></i>
         </a>
-        <a href="" className="me-4 text-reset">
+        <a href="" className="me-4 text-reset"style={{backgroundColor:"black"}}>
           <i className="fab fa-twitter"></i>
         </a>
-        <a href="" className="me-4 text-reset">
+        <a href="" className="me-4 text-reset"style={{backgroundColor:"black"}}>
           <i className="fab fa-google"></i>
         </a>
-        <a href="" className="me-4 text-reset">
+        <a href="" className="me-4 text-reset"style={{backgroundColor:"black"}}>
           <i className="fab fa-instagram"></i>
         </a>
-        <a href="" className="me-4 text-reset">
+        <a href="" className="me-4 text-reset"style={{backgroundColor:"black"}}>
           <i className="fab fa-linkedin"></i>
         </a>
-        <a href="" className="me-4 text-reset">
+        <a href="" className="me-4 text-reset"style={{backgroundColor:"black"}}>
           <i className="fab fa-github"></i>
         </a>
       </div>
