@@ -8,12 +8,15 @@ import '../src/components/style.css'
 import Pages from './components/Pages.tsx';
 // import List from './components/List.tsx';
 import Footer from "./components/Footer.tsx";
+// import App from './App.tsx';
 
 
 createRoot(document.getElementById('root')!).render(
   
     <>
+    
       <Navbar />
+      {/* <App /> */}
       <Cards />
       <Articles />
       <Pages />

@@ -5,7 +5,7 @@ import React from "react";
 const Pages = () => {
   
   return (
-    <nav aria-label="Page navigation" className="my-3" style={{marginRight:"550px"}}>
+    <nav aria-label="Page navigation" className="my-3" style={{marginRight:"510px"}}>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-auto">
