@@ -1,4 +1,9 @@
+import axios from "axios";
+import React from "react";
+
+
 const Pages = () => {
+  
   return (
     <nav aria-label="Page navigation" className="my-3" style={{marginRight:"550px"}}>
       <div className="container">
@@ -16,6 +21,12 @@ const Pages = () => {
               </li>
               <li className="page-item">
                 <a className="page-link" href="#">3</a>
+              </li>
+                <li className="page-item">
+                <a className="page-link" href="#">4</a>
+              </li>
+                <li className="page-item">
+                <a className="page-link" href="#">5</a>
               </li>
               <li className="page-item">
                 <a className="page-link" href="#">Next</a>
