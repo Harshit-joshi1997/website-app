@@ -7,7 +7,8 @@ import Articles from './components/Articles.tsx';
 import '../src/components/style.css'
 import Pages from './components/Pages.tsx';
 // import List from './components/List.tsx';
-import Footer from "./components/footer.tsx";
+import Footer from "./components/Footer.tsx";
+
 
 createRoot(document.getElementById('root')!).render(
   
@@ -16,8 +17,10 @@ createRoot(document.getElementById('root')!).render(
       <Cards />
       <Articles />
       <Pages />
+    
     <Form />
     <Footer />
+    
     
     </>
  

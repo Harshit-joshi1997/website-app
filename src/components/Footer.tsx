@@ -42,10 +42,10 @@ return (
           <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             {/* Content */}
             <h6 className="text-uppercase fw-bold mb-4" style={{marginLeft:"-15px"}}>
-              <i className="fas fa-gem me-3"></i>Blog Factory
+              <i className="fas fa-gem me-3" ></i>Blog Factory
             </h6>
-            <p>
-              The key is, no matter what story you tell, make your buyer the hero.RPvqzWYbqthRSHuD
+            <p style={{fontStyle:"italic"}}>
+              " The key is, no matter what story you tell, make your buyer the hero. "
             </p>
           </div>
           {/* Grid column */}
@@ -54,19 +54,19 @@ return (
           <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
             {/* Links */}
             <h6 className="text-uppercase fw-bold mb-4">
-              Products
+              Topics
             </h6>
             <p>
-              <a href="#!" className="text-reset">Angular</a>
+              <a href="#!" className="text-reset">Global Politics</a>
             </p>
             <p>
-              <a href="#!" className="text-reset">React</a>
+              <a href="#!" className="text-reset">Environment</a>
             </p>
             <p>
-              <a href="#!" className="text-reset">Vue</a>
+              <a href="#!" className="text-reset">Health</a>
             </p>
             <p>
-              <a href="#!" className="text-reset">Laravel</a>
+              <a href="#!" className="text-reset">Sports</a>
             </p>
           </div>
           {/* Grid column */}
@@ -75,19 +75,19 @@ return (
           <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
             {/* Links */}
             <h6 className="text-uppercase fw-bold mb-4">
-              Useful links
+              Social Media Links
             </h6>
             <p>
-              <a href="#!" className="text-reset">Pricing</a>
+              <a href="#!" className="text-reset">Facebook</a>
             </p>
             <p>
-              <a href="#!" className="text-reset">Settings</a>
+              <a href="#!" className="text-reset">Instagram</a>
             </p>
             <p>
-              <a href="#!" className="text-reset">Orders</a>
+              <a href="#!" className="text-reset">Twitter</a>
             </p>
             <p>
-              <a href="#!" className="text-reset">Help</a>
+              <a href="#!" className="text-reset">Linkdln</a>
             </p>
           </div>
           {/* Grid column */}
@@ -96,13 +96,13 @@ return (
           <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             {/* Links */}
             <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-            <p><i className="fas fa-home me-3"></i> New Delhi, DL 10012, US</p>
+            <p><i className="fas fa-home me-3"style={{marginLeft:"-15px"}}></i> New Delhi, DL 10012, IN</p>
             <p>
-              <i className="fas fa-envelope me-3"></i>
-              info@example.com
+              <i className="fas fa-envelope me-3"style={{marginLeft:"-15px"}}></i>
+              infoblog@example.com
             </p>
-            <p><i className="fas fa-phone me-3"></i> + 01 234 567 88</p>
-            <p><i className="fas fa-print me-3"></i> + 01 234 567 89</p>
+            <p><i className="fas fa-phone me-3"style={{marginLeft:"-15px"}}></i> + 01 234 567 88</p>
+            <p><i className="fas fa-print me-3"style={{marginLeft:"-15px"}}></i> + 01 234 567 89</p>
           </div>
           {/* Grid column */}
         </div>
