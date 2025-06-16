@@ -1,36 +1,31 @@
-// import Navbar from "./components/Navbar"
-// import Home from "./pages/Home"
-// import About from "./pages/About"
-// import Community from "./pages/Community"
+
+import RootLayout from "./layout/RootLayout"
+import About from "./pages/About"
+import Home from "./pages/Home"
+import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from "react-router-dom"
+import More from "./pages/More"
 
 
-// const App = () => {
-//   let Component: React.ComponentType = Home; 
+const App = () => {
+const router = createBrowserRouter(
+    createRoutesFromElements(
+        <Route path="/" element={<RootLayout />}>
+            <Route index element={<Home/>}/>
+            <Route path="Home" element={<Home />}></Route>
+            <Route path="About" element={<About />}></Route>
+           <Route path="More" element={<More />}></Route>
+        </Route>
+    )
+)
 
-//   switch (window.location.pathname) {
-//     case "/":
-//     case "/Home":
-//       Component = Home;
-//       break;
-//     case "/About":
-//       Component = About;
-//       break;
-//     case "/Community":
-//       Component = Community;
-//       break;
-//     default:
-//       Component = Home;
-//       break;
-//   }
 
-//   return (
-//     <>
-     
-//       <div className="container">
-//         <Component />
-//         </div>
-//     </>
-//   );
-// }
 
-// export default App
+   return (
+    <>
+      <RouterProvider router={router} />
+      
+    </>
+  )
+}
+
+export default App

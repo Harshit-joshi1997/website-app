@@ -1,5 +1,7 @@
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+ 
   return (
     <>
     <nav className="d-flex p-2 bd-highlight navbar navbar-expand-lg navbar-light bg-light">
@@ -11,13 +13,13 @@ const Navbar = () => {
       <a className="navbar-brand" href="#">Blogs Factory</a>
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
+         <NavLink to='/'> <a className="nav-NavLink active" style={{color:"black",marginLeft:"30px"}} aria-current="page" href="#">Home</a></NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/About">About</a>
+          <NavLink to='/About'><a className="nav-NavLink active" style={{color:"black",marginLeft:"30px"}}href="/About">About</a></NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" href="/Community" tabIndex={-1} aria-disabled="true">Community</a>
+         <NavLink to='/More'><a className="nav-NavLink active" style={{color:"black",marginLeft:"30px"}} href="/More" tabIndex={-1} aria-disabled="true">More</a></NavLink>
         </li>
       </ul>
       <form className="d-flex">

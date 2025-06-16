@@ -13,7 +13,7 @@ return (
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-  <div className="carousel-inner"style={{ width: "1500px", height:"720px" ,marginBottom:"18px"}}>
+  <div className="carousel-inner"style={{ width: "1500px", height:"750px" ,marginBottom:"18px"}}>
     <div className="carousel-item active " >
       <img src={pic11} className="img-fluid" alt="first slide"/>
       <div className="carousel-caption d-none d-md-block">
