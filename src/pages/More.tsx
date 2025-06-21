@@ -1,7 +1,4 @@
 import Footer from "../components/Footer"
-import Article1 from '../assets/Article1.jpg'
-import Article2 from "../assets/Article2.jpg";
-import Article3 from "../assets/Article3.jpg";
 import Article4 from "../assets/Article4.jpg";
 
 

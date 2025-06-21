@@ -6,15 +6,15 @@ import Pages from "../components/Pages"
 
 const Home = () => {
   return (
-    <>
+       <>
          <Cards />
-    <Articles />
-    <Pages />
-    <Form />
-    <Footer />
-    </>
+           <Articles />
+             <Pages />
+               <Form />
+                 <Footer />
+                   </>
       
   )
 }
 
-export default Home
+export default Home;

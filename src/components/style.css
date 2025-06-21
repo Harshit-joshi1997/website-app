@@ -10,3 +10,17 @@
 background-color:rgb(206, 236, 226);
 color: black;
 }
+.nav-NavLink{
+  text-decoration: black;
+  color: black;
+  margin-left: 40px;
+  font-size:large;
+
+  
+}
+.nav-NavLink:hover{
+    color:blue;
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
