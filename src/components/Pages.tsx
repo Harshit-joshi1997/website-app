@@ -5,7 +5,7 @@
 const Pages = () => {
   
   return (
-    <nav aria-label="Page navigation" className="my-3" style={{marginRight:"510px"}}>
+    <nav aria-label="Page navigation" className="my-3" style={{marginRight:"370px"}}>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-auto">

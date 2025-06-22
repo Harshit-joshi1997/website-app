@@ -4,8 +4,8 @@ import Footer from '../components/Footer'
 const About = () => {
   return (
     <>
-    <section className="about-page" style={{ backgroundColor:"pink",borderRadius:"10px"}}>
-      <h1 className='heading' style={{paddingLeft:"600px",fontSize:"40px",marginTop:"10px",marginBottom:"20px"}}>Introduction</h1>
+    <section className="about-page" style={{ backgroundColor:"pink",borderRadius:"5px"}}>
+      <h1 className='heading' style={{paddingLeft:"600px",fontSize:"40px",marginTop:"2px",marginBottom:"20px"}}>Introduction</h1>
       <span>
       <p className='about-text' style={{paddingLeft:"60px"}}>
         I started this blog as a way to share my thoughts, experiences, and insights on [Your Blog's Main Topics]. What began as a personal journal has blossomed into a community where like-minded individuals can connect, learn, and grow together.
